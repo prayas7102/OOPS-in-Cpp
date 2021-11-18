@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 class time{
     float a,b,c;
@@ -9,7 +8,6 @@ public:
         b=mint;
     }
     void getter(){
-      //cout<<b<<endl;
       c=b/60;
       a+=c;
       b=b-c*60;
@@ -23,7 +21,6 @@ time time :: add(time y){
         z.b=b+y.b;
         return z;
 }
-
 int main()
 {
     time x,y,z;

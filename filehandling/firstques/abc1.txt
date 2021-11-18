@@ -1,0 +1,5 @@
+The C++ Standard Template Library provides algorithms for functions that are
+ needed in everyday-scenarios, and for commonly used containers.
+ I’m sure you’re a great coder and all and could write your own functions,
+ you should probably use the Standard Library’s functions whenever possible.
+ very efficient, both memory and space wise, especially if you use STL containers.

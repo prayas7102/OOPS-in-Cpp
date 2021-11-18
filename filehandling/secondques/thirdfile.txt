@@ -1,0 +1,7 @@
+Pass in an iterator to the beginning of the first				Pass in an iterator to the beginning of the first
+ an iterator to the end of the first range,				 an iterator to the end of the first range,
+ iterator to the beginning of the second range,				 iterator to the beginning of the second range,
+ iterator to the end of the second range, and				 iterator to the end of the second range, and
+ iterator to the beginning of the resulting range				 iterator to the beginning of the resulting range
+ you want to place all of the data into. Returns				 you want to place all of the data into. Returns
+ iterator to the element after the last element.				 iterator to the element after the last element.

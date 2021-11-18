@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 class Area{
     int l,b;
@@ -16,8 +15,7 @@ int main()
 {
     Area rect;
     int length,breadth;
-    cin>>length;
-    cin>>breadth;
+    cin>>length>>breadth;
     rect.readData(length,breadth);
     cout<<"area of rectangle "<<rect.calculateData();
     return 0;

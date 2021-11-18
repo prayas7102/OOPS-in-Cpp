@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 class item{
     static int count_;

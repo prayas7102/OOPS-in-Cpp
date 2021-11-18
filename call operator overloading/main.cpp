@@ -1,15 +1,10 @@
 #include <iostream>
-
 using namespace std;
 class Area{
     int length,breadth,height;
 public:
-    Area(){
-      length=0;breadth=0;height=0;
-    }
-    Area(int l){
-    length=l;
-    cout<<"Surface Area of Cube is = "<<6*length<<endl;
+    Area(){length=0;breadth=0;height=0;}
+    Area(int l){length=l;cout<<"Surface Area of Cube is = "<<6*length<<endl;
     }
     Area operator()(int l,int b,int h){
         Area cuboid2;

@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 class Person{
 int age2;
@@ -21,6 +20,4 @@ public:
 int main()
 {
     Person people1,people2(26),people3(30,"adarsh");
-
-    return 0;
-}
+    return 0;}

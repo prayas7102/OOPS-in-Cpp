@@ -1,27 +1,14 @@
 #include <iostream>
-
 using namespace std;
 class FLOAT{
     float n;
 public:
-    FLOAT(float k){
-        n=k;
-    }
-    void display(){
-        cout<<"the numbers are "<<n<<endl;
-    }
-    float operator/(FLOAT &n3){
-        return (n/n3.n);
-    }
-    float operator-(FLOAT &n3){
-        return (n-n3.n);
-    }
-    float operator+(FLOAT &n3){
-        return (n+n3.n);
-    }
-    float operator*(FLOAT &n3){
-        return (n*n3.n);
-    }
+    FLOAT(float k){n=k;}
+    void display(){cout<<"the numbers are "<<n<<endl;}
+    float operator/(FLOAT &n3){return (n/n3.n);}
+    float operator-(FLOAT &n3){return (n-n3.n);}
+    float operator+(FLOAT &n3){return (n+n3.n);}
+    float operator*(FLOAT &n3){return (n*n3.n);}
 };
 int main()
 {
@@ -34,5 +21,4 @@ int main()
     cout<<"The multiplication operation is ==  "<<n1*n2<<endl;
     cout<<"The addition operation is ==  "<<n1+n2<<endl;
     cout<<"The subtraction operation is ==  "<<n1-n2<<endl;
-    return 0;
-}
+    return 0;}

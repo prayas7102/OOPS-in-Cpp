@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 class Person{
     int age1;
@@ -13,9 +12,7 @@ public:
         age1=s.age1;
         name1=s.name1;
     }
-    void display(){
-        cout<<"name is "<<name1<<" age is "<<age1<<endl;
-    }
+    void display(){cout<<"name is "<<name1<<" age is "<<age1<<endl;}
 };
 int main()
 {
@@ -24,5 +21,4 @@ int main()
     rahul=(priya);
     rahul.display();
     priya.display();
-        return 0;
-}
+        return 0;}
